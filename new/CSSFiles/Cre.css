@@ -1,0 +1,104 @@
+html{
+  min-height: 100%;
+}
+
+body{
+  background-size: 100% 100%;
+}
+
+h1 {
+  font-size: 50px;
+  color:rgb(255,255,255);
+}
+
+h2 {
+  font-size: 45px;
+  color:rgb(255,255,0);
+}
+
+p {
+  font-size: 65px;
+  color: rgb(0, 255, 255);
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+	
+}
+
+ul {		/*the links for Creature pages*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 85, 0);
+}
+
+ul.taskbar {				/*the .taskbar class is used for the elements that make up the taskbar*/
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(110,110,110);
+  border: 1px solid rgb(0, 0, 0);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li.taskbar {
+  width: 33.333%;
+  float: left;
+  border-right: 1px solid rgb(210,210,210);
+}
+
+li a.taskbar {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.taskbar:hover {
+  background-color: rgb(220,20,60);
+}
+
+.creatures li a{
+  display: inline-flex;
+  justify-content: space-between;
+  
+}
+
+img{
+  width: 300px;
+  height: auto;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images p{
+  font-size: 30px;
+  color: rgb(0, 255, 255);
+  text-align: center;
+}
+
+.images a{
+}

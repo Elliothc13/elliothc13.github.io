@@ -1,0 +1,77 @@
+html {
+    min-height: 100%;
+}
+
+body{
+  background-image: url('../images/landscapeBackground.jpg');
+  background-size: cover;/*forces the background image to stretch to the size of the window*/
+}
+
+/*
+p{
+	text-align: center;
+}
+*/
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+
+}
+
+.centered {
+  position: absolute;
+  width: 49.5%;
+  top: 13%;
+  left: 25%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 763px){
+  .centered {
+    font-size: smaller;
+  }
+}
+
+.with-bg-size {
+  background-image: url('../images/parchment.jpg');
+  width: 1000px;
+  height: 200px;
+  background-position: center;
+  /* Make the background image cover the area of the <div>, and clip the excess */
+  background-size: cover;
+}
+
+/*taskbar */
+ul.taskbar { 
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(110,110,110);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+li.taskbar {
+  width: 33.333%;
+  float: left;
+  border-right: 1px solid rgb(210,210,210);
+}
+
+li a.taskbar {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgb(220,20,60);
+}
