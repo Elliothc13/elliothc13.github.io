@@ -6,6 +6,24 @@ body{
   background-size: 100% 100%;
 }
 
+.bannerContainer {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.banner {
+  color: rgb(87,2,7);
+  font-family: 'Snell Roundhand', cursive, serif;
+  font-size: 33px;
+  font-style: italic;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
   font-size: 50px;
   color:rgb(255,255,255);
@@ -19,12 +37,7 @@ h2 {
 p {
   font-size: 65px;
   color: rgb(0, 255, 255);
-  border-style: solid;
-  border-top-width: 0px;
-  border-bottom-width: 1px;
-  border-right-width: 0px;
-  border-left-width: 0px;
-	
+  text-align: center;
 }
 
 ul {		/*the links for Creature pages*/
@@ -58,6 +71,7 @@ ul.taskbar {				/*the .taskbar class is used for the elements that make up the t
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 li.taskbar {
@@ -84,21 +98,29 @@ li a.taskbar:hover {
   
 }
 
-img{
+.images img{
   width: 300px;
-  height: auto;
+  height: 320px;
 }
 
 .images{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  margin: auto;
+  width: 900px;
+  height: 800px;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 40% 10% 40% 10%;
 }
 
 .images p{
+  width: 300px;
+  height: 80px;
   font-size: 30px;
   color: rgb(0, 255, 255);
   text-align: center;
 }
 
 .images a{
+  width: 300px;
+  height: 400px;
 }
