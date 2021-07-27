@@ -20,12 +20,41 @@ p{
 
 }
 
+
 .centered {
   position: absolute;
   width: 49.5%;
   top: 13%;
   left: 25%;
   text-align: center;
+}
+
+.bannerContainer {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.banner {
+  color: rgb(87,2,7);
+  font-family: 'Snell Roundhand', cursive, serif;
+  font-size: 33px;
+  font-style: italic;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+}
+
+.pages{
+  width: 900px;
+  height: 50px;
 }
 
 @media only screen and (max-width: 763px){
