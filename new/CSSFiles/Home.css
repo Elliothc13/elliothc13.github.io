@@ -1,14 +1,13 @@
 html {
     min-height: 100%;
+    background-image: url('../images/landscapeBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body{
-  background-image: url('../images/landscapeBackground.jpg');
-  background-size: cover;
-  height: 250px;
-  background-repeat: no-repeat;
+  /*background-color: rgb(79, 0, 11);*/
 }
-
 
 
 .container {
@@ -28,6 +27,10 @@ body{
 }
 
 .bannerContainer {
+  background-image: url('../images/parchment.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
   position: relative;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -38,7 +41,7 @@ body{
   font-family: 'Snell Roundhand', cursive, serif;
   font-size: 33px;
   font-style: italic;
-
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -101,4 +104,21 @@ li a.taskbar {
 
 li a:hover {
 	background-color: rgb(220,20,60);
+}
+
+.main{
+  margin: 0 auto;
+  background-color: rgb(131, 34, 50);
+}
+
+p{
+  color: rgb(234, 242, 124);
+}
+
+h1{
+  color: rgb(213, 223, 79);
+}
+
+h2{
+  color: rgb(213, 223, 79);
 }
