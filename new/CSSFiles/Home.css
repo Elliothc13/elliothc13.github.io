@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    background-image: url('../images/landscapeBackground.jpg');
+    background-image: url('../images/parchment.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@ body{
 }
 
 .bannerContainer {
-  background-image: url('../images/parchment.jpg');
+  background-image: url('../images/landscapeBackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 50%;
