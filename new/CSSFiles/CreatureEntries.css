@@ -124,3 +124,8 @@ li a:hover {
   margin: auto;
   background-color: rgb(131, 34, 50);
 }
+
+iframe{
+  margin: 10px auto;
+  display: block;
+}

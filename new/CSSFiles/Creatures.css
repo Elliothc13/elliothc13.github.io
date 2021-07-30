@@ -108,7 +108,7 @@ li a.taskbar:hover {
   margin: auto;
   width: 900px;
   height: 800px;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 40% 10% 40% 10%;
 }
 
@@ -123,4 +123,42 @@ li a.taskbar:hover {
 .images a{
   width: 300px;
   height: 400px;
+}
+
+a div{
+  width: 300px;
+  height: 320px;
+  position: absolute;
+  grid-area: 1 / 1 / span 1 / span 1;
+}
+
+div.dragon{
+  background-image: url('../images/dragon1.png');
+  background-size: cover;
+  background-position-x: -100px;
+}
+div.demon{
+  background-image: url('../images/Lilith.jpg');
+  background-size: cover;
+  background-position: center;
+}
+div.orc{
+  background-image: url('../images/Orc.jpg');
+  background-size: cover;
+  background-position-x: -190px;
+}
+div.fairy{
+  background-image: url('../images/Fairy.jpg');
+  background-size: cover;
+  background-position-y: -20px;
+}
+div.faun{
+  background-image: url('../images/Faun.jpg');
+  background-size: cover;
+  background-position-y: -15px;
+}
+div.unicorn{
+  background-image: url('../images/UNI.jpg');
+  background-size: cover;
+  background-position-x: -150px;
 }
