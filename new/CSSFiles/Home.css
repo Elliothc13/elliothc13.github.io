@@ -4,14 +4,12 @@ html {
 
 body{
   background-image: url('../images/landscapeBackground.jpg');
-  background-size: cover;/*forces the background image to stretch to the size of the window*/
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
 }
 
-/*
-p{
-	text-align: center;
-}
-*/
+
 
 .container {
   position: relative;
