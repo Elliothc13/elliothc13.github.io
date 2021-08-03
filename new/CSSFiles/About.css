@@ -50,19 +50,19 @@ h2.poem{
   padding: 20px;
 	text-align: center;
   margin: 0 auto;
-  color: rgb(209, 178, 178);
+  color: rgb(231, 219, 151);
   font-family: cursive;
 }
 
 h2{
   padding-top: 900px;
-  color: rgb(209, 178, 178);
+  color: rgb(231, 219, 151);           /*rgb(209, 178, 178);*/
   font-family: cursive;
 }
 
 
 li{
-  color: rgb(209, 178, 178);
+  color: rgb(231, 219, 151);
   font-family: 'Andada Pro', serif;
 }
 
@@ -73,7 +73,7 @@ ul.taskbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(131, 34, 50);
+  background-color: rgb(66, 7, 17);
   border: 1px solid rgb(0, 0, 0);
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -89,7 +89,7 @@ li.taskbar {
 
 li a.taskbar {
   display: block;
-  color: rgb(209, 178, 178);
+  color: rgb(234, 226, 183);
   font-size: 20px;
   text-align: center;
   padding: 14px 16px;
@@ -97,7 +97,7 @@ li a.taskbar {
 }
 
 li a:hover {
-	background-color: rgb(220,20,60);
+	background-color: rgb(143, 12, 38);
 }
 
 .main{

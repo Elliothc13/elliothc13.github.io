@@ -48,19 +48,19 @@ body{
 
 h1 {
   font-size: 50px;
-  color:rgb(255,255,255);
+  color:rgb(231, 219, 151);
 }
 
 h2 {
   font-size: 30px;
-  color: rgb(209, 178, 178);
+  color:rgb(231, 219, 151);
   font-family: cursive;
 }
 
 h3 {
   margin-top: 0px;
   font-size: 20px;
-  color: rgb(209, 178, 178);
+  color: rgb(231, 219, 151);
   font-family: cursive;
   text-align: center;
 }
@@ -91,7 +91,7 @@ ul.taskbar {				/*the .taskbar class is used for the elements that make up the t
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(131, 34, 50);
+  background-color: rgb(66, 7, 17);
   		border: 1px solid rgb(0, 0, 0);
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -107,7 +107,7 @@ li.taskbar {
 
 li a.taskbar {
   display: block;
-  color: rgb(209, 178, 178);
+  color: rgb(234, 226, 183);
   font-size: 20px;
   text-align: center;
   padding: 14px 16px;
@@ -115,7 +115,7 @@ li a.taskbar {
 }
 
 li a.taskbar:hover {
-  background-color: rgb(220,20,60);
+  background-color: rgb(143, 12, 38);
 }
 
 .creatures li a{
@@ -142,7 +142,7 @@ li a.taskbar:hover {
   width: 300px;
   height: 80px;
   font-size: 30px;
-  color: rgb(209, 178, 178);
+  color: rgb(231, 219, 151);
   font-family: cursive;
   text-align: center;
 }
