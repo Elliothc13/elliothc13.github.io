@@ -23,6 +23,7 @@ body{
   background-image: url('../images/landscapeBackground.jpg');
   background-size: cover;
   background-position: center;
+  background-position-y: 60%;
   z-index: -1;
 }
 
