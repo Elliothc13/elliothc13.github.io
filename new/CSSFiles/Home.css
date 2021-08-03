@@ -84,19 +84,20 @@ ul.taskbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(110,110,110);
+  background-color: rgb(131, 34, 50);
   border: 1px solid rgb(0, 0, 0);
 }
 
 li.taskbar {
   width: 33.333%;
   float: left;
-  border-right: 1px solid rgb(210,210,210);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 li a.taskbar {
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(209, 178, 178);
+  font-size: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -112,13 +113,16 @@ li a:hover {
 }
 
 p{
-  color: rgb(234, 242, 124);
+  color: rgb(255, 255, 255);
+  font-family: 'Andada Pro', serif;
 }
 
 h1{
-  color: rgb(213, 223, 79);
+  color: rgb(209, 178, 178);
+  font-family: cursive;
 }
 
 h2{
-  color: rgb(213, 223, 79);
+  color: rgb(209, 178, 178);
+  font-family: cursive;
 }

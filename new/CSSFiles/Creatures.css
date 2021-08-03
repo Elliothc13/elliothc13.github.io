@@ -52,14 +52,16 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
-  color:rgb(255,255,0);
+  font-size: 30px;
+  color: rgb(209, 178, 178);
+  font-family: cursive;
 }
 
 h3 {
   margin-top: 0px;
   font-size: 20px;
-  color: rgb(234, 242, 124);
+  color: rgb(209, 178, 178);
+  font-family: cursive;
   text-align: center;
 }
 
@@ -89,8 +91,8 @@ ul.taskbar {				/*the .taskbar class is used for the elements that make up the t
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(110,110,110);
-  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(131, 34, 50);
+  		border: 1px solid rgb(0, 0, 0);
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -100,12 +102,13 @@ ul.taskbar {				/*the .taskbar class is used for the elements that make up the t
 li.taskbar {
   width: 33.333%;
   float: left;
-  border-right: 1px solid rgb(210,210,210);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 li a.taskbar {
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(209, 178, 178);
+  font-size: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -135,11 +138,12 @@ li a.taskbar:hover {
   grid-template-rows: 40% 10% 40% 10%;
 }
 
-.images p{
+.images h2{
   width: 300px;
   height: 80px;
   font-size: 30px;
-  color: rgb(234, 242, 124);
+  color: rgb(209, 178, 178);
+  font-family: cursive;
   text-align: center;
 }
 
