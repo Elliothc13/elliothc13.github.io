@@ -12,7 +12,3 @@ ul.taskbar {
   top: 0;
   z-index: 1;
 }
-
-foo.bar {
-  display: inline-flex;
-}
