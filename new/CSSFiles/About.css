@@ -1,3 +1,5 @@
+@import 'common.css';
+
 html {
   min-height: 1000px;
   background-image: url('../images/parchment.jpg');
@@ -60,21 +62,6 @@ h2{
 
 li{
   color: rgb(234, 242, 124);
-}
-
-ul.taskbar {
-  display: flex;
-	justify-content: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(110,110,110);
-  border: 1px solid black;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 li.taskbar {
