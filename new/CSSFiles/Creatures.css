@@ -1,127 +1,16 @@
-html{
-  min-height: 100%;
-  background-image: url('../images/parchment.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-body{
-  background-size: 100% 100%;
-  /*background-color: rgb(79, 0, 11);*/
-}
-
-.bannerContainer {
-  position: relative;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-
-.background{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  grid-area: 1 / 1 / span 3 / span 4;
-  background-image: url('../images/landscapeBackground.jpg');
-  background-size: cover;
-  background-position: center;
-  background-position-y: 60%;
-  z-index: -1;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: rgb(255, 255, 255);
-
-}
-
-.banner {
-  color: rgb(87,2,7);
-  font-family: 'Snell Roundhand', cursive, serif;
-  font-size: 33px;
-  font-style: italic;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+@import 'common.css';
 
 h1 {
   font-size: 50px;
-  color:rgb(231, 219, 151);
 }
 
 h2 {
   font-size: 30px;
-  color:rgb(231, 219, 151);
-  font-family: cursive;
 }
 
 h3 {
   margin-top: 0px;
   font-size: 20px;
-  color: rgb(231, 219, 151);
-  font-family: cursive;
-  text-align: center;
-}
-
-ul {		/*the links for Creature pages*/
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: rgb(255, 85, 0);
-}
-
-ul.taskbar {				/*the .taskbar class is used for the elements that make up the taskbar*/
-  display: flex;
-  justify-content: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(66, 7, 17);
-  		border: 1px solid rgb(0, 0, 0);
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
-
-li.taskbar {
-  width: 33.333%;
-  float: left;
-  border-right: 1px solid rgb(0, 0, 0);
-}
-
-li a.taskbar {
-  display: block;
-  color: rgb(234, 226, 183);
-  font-size: 20px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a.taskbar:hover {
-  background-color: rgb(143, 12, 38);
-}
-
-.creatures li a{
-  display: inline-flex;
-  justify-content: space-between;
-  
 }
 
 .images img{
@@ -142,9 +31,6 @@ li a.taskbar:hover {
   width: 300px;
   height: 80px;
   font-size: 30px;
-  color: rgb(231, 219, 151);
-  font-family: cursive;
-  text-align: center;
 }
 
 .images a{
@@ -161,36 +47,25 @@ a div{
 
 div.dragon{
   background-image: url('../images/dragon1.png');
-  background-size: cover;
   background-position-x: -100px;
 }
 div.demon{
   background-image: url('../images/Lilith.jpg');
-  background-size: cover;
   background-position: center;
 }
 div.orc{
   background-image: url('../images/Orc.jpg');
-  background-size: cover;
   background-position-x: -190px;
 }
 div.fairy{
   background-image: url('../images/Fairy.jpg');
-  background-size: cover;
   background-position-y: -20px;
 }
 div.faun{
   background-image: url('../images/Faun.jpg');
-  background-size: cover;
   background-position-y: -15px;
 }
 div.unicorn{
   background-image: url('../images/UNI.jpg');
-  background-size: cover;
   background-position-x: -150px;
-}
-
-.main{
-  margin: auto;
-  background-color: rgb(131, 34, 50);
 }
