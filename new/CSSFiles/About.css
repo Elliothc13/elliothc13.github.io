@@ -25,6 +25,7 @@ body{
   background-image: url('../images/landscapeBackground.jpg');
   background-size: cover;
   background-position: center;
+  background-position-y: 60%;
   z-index: -1;
 }
 
@@ -51,35 +52,39 @@ h2.poem{
   padding: 20px;
 	text-align: center;
   margin: 0 auto;
-  color: rgb(234, 242, 124);
+  color: rgb(231, 219, 151);
+  font-family: cursive;
 }
 
 h2{
   padding-top: 900px;
-  color: rgb(213, 223, 79);
+  color: rgb(231, 219, 151);           /*rgb(209, 178, 178);*/
+  font-family: cursive;
 }
 
 
 li{
-  color: rgb(234, 242, 124);
+  color: rgb(231, 219, 151);
+  font-family: 'Andada Pro', serif;
 }
 
 li.taskbar {
   width: 33.333%;
   float: left;
-  border-right: 1px solid rgb(210,210,210);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 li a.taskbar {
   display: block;
-  color: #000;
+  color: rgb(234, 226, 183);
+  font-size: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-	background-color: rgb(220,20,60);
+	background-color: rgb(143, 12, 38);
 }
 
 .main{

@@ -4,7 +4,7 @@ html{
 
 body{
   background-size: 100% 100%;
-  background-color: rgb(79, 0, 11);
+  background-color: rgb(102, 1, 14); /*rgb(79, 0, 11);*/
   /*background-image: url('../images/parchment.jpg');*/
 }
 .container {
@@ -61,18 +61,20 @@ embed{
 }
 
 u{
-  color: rgb(0, 255, 255);
+  color: rgb(231, 219, 151);
 }
 
 h1 {
   font-size: 50px;
-  color:rgb(51, 149, 214);
+  color: rgb(231, 219, 151);
+  font-family: cursive;
   text-align: center;
 }
 
 h2 {
   font-size: 45px;
-  color:rgb(51, 149, 214);
+  color: rgb(231, 219, 151);
+  font-family: cursive;
   text-align: center;
 }
 
@@ -81,7 +83,9 @@ p {
   margin: auto;
   text-align: justify;
   font-size: 20px;
-  color: rgb(234, 242, 124);
+  color: rgb(234, 226, 183);
+	font-family: 'Andada Pro', serif;
+
   /*border-style: solid;
   border-top-width: 2px;
   background-color: rgb(20, 55, 78);*/
@@ -95,7 +99,7 @@ ul.taskbar {			/*the .taskbar class is used for the elements that make up the ta
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(110,110,110);
+  background-color: rgb(66, 7, 17);
   border: 1px solid rgb(0, 0, 0);
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -105,19 +109,20 @@ ul.taskbar {			/*the .taskbar class is used for the elements that make up the ta
 li.taskbar {
   width: 33.333%;
   float: left;
-  border-right: 1px solid rgb(210,210,210);
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
 li a.taskbar {
   display: block;
-  color: rgb(0, 0, 0);
+  color: rgb(234, 226, 183);
+  font-size: 20px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: rgb(220,20,60);
+  background-color: rgb(143, 12, 38);
 }
 
 .main{
