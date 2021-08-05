@@ -1,5 +1,4 @@
 @import 'common.css';
-
 h1 {
   font-size: 50px;
 }
@@ -13,12 +12,12 @@ h3 {
   font-size: 20px;
 }
 
-.images img{
+.images img {
   width: 300px;
   height: 320px;
 }
 
-.images{
+.images {
   display: grid;
   margin: auto;
   width: 900px;
@@ -27,45 +26,50 @@ h3 {
   grid-template-rows: 40% 10% 40% 10%;
 }
 
-.images h2{
+.images h2 {
   width: 300px;
   height: 80px;
   font-size: 30px;
 }
 
-.images a{
+.images a {
   width: 300px;
   height: 400px;
 }
 
-a div{
+a div {
   width: 300px;
   height: 320px;
   position: absolute;
   grid-area: 1 / 1 / span 1 / span 1;
 }
 
-div.dragon{
+div.dragon {
   background-image: url('../images/dragon1.png');
   background-position-x: -100px;
 }
-div.demon{
+
+div.demon {
   background-image: url('../images/Lilith.jpg');
   background-position: center;
 }
-div.orc{
+
+div.orc {
   background-image: url('../images/Orc.jpg');
   background-position-x: -190px;
 }
-div.fairy{
+
+div.fairy {
   background-image: url('../images/Fairy.jpg');
   background-position-y: -20px;
 }
-div.faun{
+
+div.faun {
   background-image: url('../images/Faun.jpg');
   background-position-y: -15px;
 }
-div.unicorn{
+
+div.unicorn {
   background-image: url('../images/UNI.jpg');
   background-position-x: -150px;
 }

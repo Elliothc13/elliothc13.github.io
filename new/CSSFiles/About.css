@@ -1,17 +1,16 @@
 @import 'common.css';
-
-h2.poem{
+h2.poem {
   padding: 20px;
-	text-align: center;
+  text-align: center;
   margin: 0 auto;
 }
 
-h2{
+h2 {
   padding-top: 900px;
   text-align: left;
 }
 
-li{
+li {
   color: rgb(231, 219, 151);
   font-family: 'Andada Pro', serif;
   text-align: left;
