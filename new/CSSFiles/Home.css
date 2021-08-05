@@ -9,7 +9,11 @@
 
 @media only screen and (max-width: 763px) {
   .centered {
-    font-size: smaller;
+    font-size: 8px;
+  }
+  img {
+    width: 200px;
+    height: auto;
   }
 }
 
