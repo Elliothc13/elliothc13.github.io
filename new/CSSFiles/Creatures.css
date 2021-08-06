@@ -37,6 +37,12 @@ h3 {
   height: 400px;
 }
 
+.images a:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  z-index: 2;
+}
+
 a div {
   width: 300px;
   height: 320px;
@@ -72,4 +78,10 @@ div.faun {
 div.unicorn {
   background-image: url('../images/UNI.jpg');
   background-position-x: -150px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .images {
+    width: 600px;
+  }
 }

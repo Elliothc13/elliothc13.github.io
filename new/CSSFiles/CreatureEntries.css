@@ -31,13 +31,8 @@ html {
 }
 
 img {
-  width: 700px;
+  width: 80%;
   height: auto;
-  display: block;
-  margin: auto;
-}
-
-embed {
   display: block;
   margin: auto;
 }
@@ -62,4 +57,17 @@ p {
 iframe {
   margin: 10px auto;
   display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .centered {
+    font-size: 8px;
+  }
+  iframe {
+    width: 70%;
+    height: auto;
+  }
+  .background {
+    height: 300px;
+  }
 }
