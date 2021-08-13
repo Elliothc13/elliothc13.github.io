@@ -1,5 +1,6 @@
 @import 'common.css';
 html {
+  min-height: 1000px;
   background-image: unset;
   background-color: rgb(102, 1, 14);
 }
